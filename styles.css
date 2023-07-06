@@ -790,6 +790,7 @@ strong {
   /* BELOW Mobile */
   .btn-mobile-nav {
     display: block;
+    z-index: 10000;
   }
   .main-nav {
     position: absolute;
@@ -813,7 +814,7 @@ strong {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-    transform: translate();
+    transform: translateX(0);
   }
   .main-nav-list {
     flex-direction: column;
